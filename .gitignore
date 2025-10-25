@@ -1,0 +1,7 @@
+# ignore sensitive files
+.env
+
+# ignore dependencies and build files
+node_modules/
+dist/
+.vscode/
