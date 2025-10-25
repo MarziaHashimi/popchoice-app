@@ -9,7 +9,7 @@ const template = () => `
     <div id="start-view" class="view">
       <div class="card">
         <div class="logo">
-          <div class="emoji"><img src="../poster/popcorn.png" alt="Popcorn Icon"></div>
+          <div class="emoji"><img src="poster/popcorn.png" alt="Popcorn Icon"></div>
           <div class="brand">PopChoice</div>
         </div>
         <input type="number" id="numPeople" placeholder="How many people?" min="1" max="10"/>
@@ -22,7 +22,7 @@ const template = () => `
     <div id="person-view" class="view hidden">
       <div class="card">
         <div class="logo">
-          <div class="emoji"><img src="../poster/popcorn.png" alt="Popcorn Icon"></div>
+          <div class="emoji"><img src="poster/popcorn.png" alt="Popcorn Icon"></div>
           <div class="brand">PopChoice</div>
         </div>
         <div id="person-number" style="margin-bottom:10px;">Person 1</div>
@@ -222,3 +222,4 @@ nextMovieBtn.addEventListener("click", () => {
 });
 
 showView("start-view");
+
